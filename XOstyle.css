@@ -1,0 +1,28 @@
+/*@import url(//meyerweb.com/eric/tools/css/reset/reset.css);*/
+
+body {
+  background-color: #333333;
+}
+.actions {
+  text-align: center;
+}
+.ai {
+  background-image: url('o.png');
+}
+.container {
+  margin: 10px auto;
+  width: 660px;
+}
+.cell {
+  background-color: #8C8C8C;
+  border: 10px solid black;
+  float: left;
+  height: 200px;
+  width: 200px;
+}
+.cell:hover {
+  border-color: #FFCC00;
+}
+.player {
+  background-image: url('x.png');
+}
